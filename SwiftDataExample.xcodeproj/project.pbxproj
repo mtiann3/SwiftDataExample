@@ -14,6 +14,7 @@
 		A8BFB48D2BB0D59200E87CB1 /* SwiftDataExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFB48C2BB0D59200E87CB1 /* SwiftDataExampleTests.swift */; };
 		A8BFB4972BB0D59200E87CB1 /* SwiftDataExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFB4962BB0D59200E87CB1 /* SwiftDataExampleUITests.swift */; };
 		A8BFB4992BB0D59200E87CB1 /* SwiftDataExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFB4982BB0D59200E87CB1 /* SwiftDataExampleUITestsLaunchTests.swift */; };
+		A8BFB4A62BB0D59D00E87CB1 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BFB4A52BB0D59D00E87CB1 /* Expense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A8BFB4922BB0D59200E87CB1 /* SwiftDataExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDataExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BFB4962BB0D59200E87CB1 /* SwiftDataExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataExampleUITests.swift; sourceTree = "<group>"; };
 		A8BFB4982BB0D59200E87CB1 /* SwiftDataExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A8BFB4A52BB0D59D00E87CB1 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				A8BFB47D2BB0D59100E87CB1 /* ContentView.swift */,
 				A8BFB47F2BB0D59200E87CB1 /* Assets.xcassets */,
 				A8BFB4812BB0D59200E87CB1 /* Preview Content */,
+				A8BFB4A52BB0D59D00E87CB1 /* Expense.swift */,
 			);
 			path = SwiftDataExample;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8BFB4A62BB0D59D00E87CB1 /* Expense.swift in Sources */,
 				A8BFB47E2BB0D59100E87CB1 /* ContentView.swift in Sources */,
 				A8BFB47C2BB0D59100E87CB1 /* SwiftDataExampleApp.swift in Sources */,
 			);
